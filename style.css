@@ -1,0 +1,11 @@
+.reviews-image{
+    border: 5px solid #e6e6e6;
+}
+
+.frontend-list{
+    background: linear-gradient(to right, white 0%, white calc(50% - 1px),#e6e6e6 calc(50% - 1px), #e6e6e6 calc(50% + 1px),white calc(50% + 1px), white 100%);
+}
+
+.row:last-child{
+    background:white;
+}
