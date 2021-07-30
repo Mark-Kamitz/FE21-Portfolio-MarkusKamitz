@@ -5,44 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-     <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
-<body>
-    <section class="FrontendDeveloper">
-        <div class="container">
-            <h3 class="text-center my-5 ">Frontend Developer Code Reviews</h3>
-            <div class="frontend-list">
-                <div class="row mb-5">
-                    <div class="col-6 col-sm-3 col-md-2 offset-3  offset-sm-0  order-1 order-md-2">
-                        <img src="pics/five.png" class="reviews-image img-fluid rounded-circle mt-3 mt-sm-0" alt="...">
-                    </div>
-                <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1"> 
-                    <h5 class="h6 text-center text-sm-start text-md-end mb-1">14 Juni 2021</h5>
-                    <h6 class="text-center text-sm-start text-md-end">Code Review 1</h6>
-                    <p  class="text-center text-sm-start text-md-end text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                </div>  
-                </div>
+<body class="text-primary">
+    <!-- particles.js container -->
+    <div style="height:100vh" id="home">
+      <div id="particles-js"></div>  
+    </div>
 
-                <div class="row ">
-                    <div class="col-6 col-sm-3 col-md-2 offset-3  offset-sm-0  order-1 order-sm-2 order-md-1 offset-md-5">
-                        <img src="pics/five.png" class="reviews-image img-fluid rounded-circle mt-3 mt-sm-0" alt="...">
-                    </div>
-                <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2"> 
-                    <h5 class="h6 text-center text-sm-start  mb-1">14 Juni 2021</h5>
-                    <h6 class="text-center text-sm-start ">Code Review 1</h6>
-                    <p  class="text-center text-sm-start  text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                </div>  
-                </div>
+    <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script src="js/animation.js"></script>
+      
 
+    <header class="page-header ">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark  bg-primary ">
+            <div class="container container-fluid">
+              <a class="navbar-brand" href="#portfolio">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item text-white">
+                    <a class="nav-link "  href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="about" ></div>
+    <section class="about " style="min-height:100vh;">
+      <div class="container ">
+        <h1 class="text-secondary fw-light text-center about py-5">Hi my name is Markus Kamitz</h1>
+        <p class="h3 text-secondary fw-light text-center">I'm a Web Developer from Vienna Austria</p>
+        <p class="fs-6 text-primary fw-lighter text-center">currently attending a Full Stack Web Developer Bootcamp </br> at <span class=" fw-light text-primary"><a href="https://codefactory.wien/" target="_blank" class="text-decoration-none">CodeFactory</a></span> Vienna</p>
+        <p class="h1 text-success  text-center about pt-5"> " I love to create ! "</p>
+        <p class="fs-5 text-primary fw-lighter text-center"> and watch my creation unfold </p>
+        <p class="h1 text-primary  text-center  fw-light py-5 skills">  Skills </p>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4  text-primary d-flex flex-column align-items-center">
+            <div>
+              <h4 class="text-secondary">Frontend Technologies</h4>
+              <ul>
+                <li>Angular</li>
+                <li>TypeScript / JavaScript</li>
+                <li>SCSS / CSS</li>
+                <li>Bootstrap5</li>
+                <li>HTML5</li>
+              </ul>
+          </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4  text-primary d-flex flex-column align-items-center">
+            <div>
+              <h4 class="text-secondary">Backend Technologies</h4>
+              <ul>
+                <li>PHP</li>
+                <li>MySQL</li>
+              </ul>
+          </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4  text-primary d-flex flex-column align-items-center">
+            <div>
+              <h4 class="text-secondary">General Skills</h4>
+              <ul>
+                <li>Agile Development</li>
+                <li>GitHub</li>
+                <li>Project Documentation</li>
+              </ul>
+          </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+    
+    <div id="portfolio" ></div>
+    <section class="FrontendDeveloper text-secondary " >
+        <div class="container" >
+            <h3 class="text-center my-5 text-success frontend">Frontend Developer | Code Reviews</h3>
+            <div class="frontend-list" id="frontend">
             </div>
         </div>
     </div>
-
-
     
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <footer class="d-flex justify-content-center align-items-center footer bg-info" id="contact" style="min-height:50vh">
+      <div class="text-white">
+        <p class="text-center text-secondary fs-5">contact me at</p>
+        <p class="h3 text-secondary">mark_millions at yahoo.com</p>
+        <button class="logo bg-secondary mt-4 bg-transparent d-flex justify-content-center align-items-center">
+        <span class="fs-3  fw-bold"><a href="https://www.linkedin.com/in/markus-kamitz-a4bb52b6/" class="text-decoration-none text-secondary">in</a></span>
+        </button>
+      </div>
+    </footer>
+
+  <script src="json/frontend.json"></script> 
+  <script src="js/script.js"></script>   
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
