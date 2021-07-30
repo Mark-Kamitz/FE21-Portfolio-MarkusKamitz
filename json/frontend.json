@@ -1,0 +1,73 @@
+let frontend = `
+  [ {   "name": "Portfolio",
+        "date": "26.07.2021",
+        "technology": "Bootstrap HTML SCSS JavaScript",
+        "description": "had fun using the tools i learned to create this portfolio",
+        "image": "img/portfolio.png",
+        "link": "#home",
+        "git": "img/github-icon.png",
+        "gitLink": "https://github.com/Mark-Kamitz/FE21-Portfolio-MarkusKamitz"
+    },{
+        "name": "Frontend Project",
+        "date": "19.07.2021",
+        "technology": "Angular Bootstrap HTML SCSS TypeScript",
+        "description": "Team of 4 we used: Trello Bord in Kanban style and Mindmap to organize our work, daily Zoom Meetings kept us up to date. ",
+        "image": "img/frontend-project.png",
+        "link": "Team/index.html",
+        "git": "img/github-icon.png",
+        "gitLink": "https://github.com/Mark-Kamitz/FE21-TeamProject-Team2"
+    },{
+        "name": "Code Review 6",
+        "date": "16.07.2021",
+        "technology": "Angular Bootstrap HTML CSS TypeScript",
+        "description": "Creating a travel page using interactive cart functionality",
+        "image": "img/CR-6.png",
+        "link": "CR-6/index.html",
+        "git": "img/github-icon.png",
+        "gitLink": "https://github.com/Mark-Kamitz/FE21-CR6-MarkusKamitz"
+    },{
+        "name": "Code Review 5",
+        "date": "09.0.2021",
+        "technology": "Bootstrap HTML SCSS TypeScript",
+        "description": "Creating a blog that utilizes dynamic page generation using classes and objects",
+        "image": "img/CR-5.png",
+        "link": "CR-5/index.html",
+        "git": "img/github-icon.png",
+        "gitLink": "https://github.com/Mark-Kamitz/FE21-CR5-MarkusKamitz"
+    },{
+        "name": "Code Review 4",
+        "date": "02.07.2021",
+        "technology": "Bootstrap HTML SCSS TypeScript Json",
+        "description": "Generating a site dynamically from a .json file via javascript and using a sort function",
+        "image": "img/CR-4.png",
+        "link": "CR-4/index.html",
+        "git": "img/github-icon.png",
+        "gitLink": "https://github.com/Mark-Kamitz/FE21-CR4-MarkusKamitz"
+    },{    
+        "name": "Code Review 3",
+        "date": "25.06.2021",
+        "technology": "Bootstrap SCSS HTML JavaScript",
+        "description": "Using Bootstrapand SCSS, first JavaScript steps and getting familiar with the console",
+        "image": "img/CR-3.png",
+        "link": "CR-3/index.html",
+        "git": "img/github-icon.png",
+        "gitLink": "https://github.com/Mark-Kamitz/FE21-CR3-MarkusKamitz"
+    },{
+        "name": "Code Review 2",
+        "date": "18.06.2021",
+        "technology": "HTML SCSS",
+        "description": "Getting familiar with the basic concepts of dynamic pages and SCSS",
+        "image": "img/CR-2.png",
+        "link": "CR-2/index.html",
+        "git": "img/github-icon.png",
+        "gitLink" : "https://github.com/Mark-Kamitz/FE21-CR2-MarkusKamitz"
+    },{ 
+        "name": "Code Review 1",
+        "date": "11.06.2021",
+        "technology": "HTML CSS",
+        "description": "Getting familiar with the DOM HTML and CSS",
+        "image": "img/CR-1.png",
+        "link": "CR-1/index.html",
+        "git": "img/github-icon.png",
+        "gitLink": "https://github.com/Mark-Kamitz/FE21-CR01-MarkusKamitz"
+    } ] `

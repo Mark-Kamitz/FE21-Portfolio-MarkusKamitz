@@ -1,0 +1,60 @@
+@import 'scss/particles';
+
+$primary:    #264653;  // Charcoil
+$secondary:  #2A9D8F;  // Persian Green
+$success:    #E9C46A;  // Orange Yellow Crayola
+$info:       #F4A261;  // Sandy Brown
+$warning:    #F76F51;  // Burnt Sienna
+
+@import "bootstrap-5.0.2/scss/bootstrap/";
+
+
+.reviews-image{
+    border: 5px solid #e6e6e6;
+    padding:0px;
+    margin:0px;
+}
+@include media-breakpoint-up(md){
+    .frontend-list{
+        background: linear-gradient(to right, white 0%, white calc(50% - 1px),#e6e6e6 calc(50% - 1px), #e6e6e6 calc(50% + 1px),white calc(50% + 1px), white 100%);
+    }
+}
+
+.row:last-child{
+    background :white;
+}
+
+.frontend{
+    margin-bottom : 60px;
+}
+
+#footer{
+    height:60px;  
+}
+
+#portfolio{
+    height:50px;
+}
+
+.header-text{
+    z-index:10000;
+}
+
+.logo{
+    height:40px;
+    width:40px;
+    margin:0 auto;
+    border:4px solid #2A9D8F;
+    border-radius:50%;
+}
+
+#about{
+    height:70px; 
+}
+
+@include media-breakpoint-up(sm){
+    .skills{
+        margin-top:150px;
+    }
+}
+
