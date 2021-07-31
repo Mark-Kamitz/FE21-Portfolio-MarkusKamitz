@@ -2,7 +2,7 @@
 Prortfolio | 26.07.2021
 
 
-According to the idea: **"I love to create - and watch my creation unfold"** I created a little **"creaters game"** on the homepage to 
+According to the idea: **"I love to create - and watch my creation unfold"** I created a little **"creators game"** on the homepage to 
 convey the experience to create and watch the creation unfold in front of your eyes. Just **klick on the screen and create some light magic** and enjoy the experience.
 
 
