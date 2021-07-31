@@ -1,7 +1,7 @@
 let mydata = JSON.parse(frontend);
 let x = 2;
 
-/* ---- frontend cloop ---- */
+/* ---- frontend loop ---- */
 
 for (let val of mydata) {
     if(x % 2 === 0) {
