@@ -15,7 +15,7 @@ let frontend = `
         "image": "img/frontend-project.png",
         "link": "Team/index.html",
         "git": "img/github-icon.png",
-        "gitLink": "https://github.com/Mark-Kamitz/FE21-TeamProject-Team2"
+        "gitLink": "https://github.com/Mark-Kamitz/FE-21-Frontend-Team-Project/tree/main/Zumm-Gmbh"
     },{
         "name": "Code Review 6",
         "date": "16.07.2021",
