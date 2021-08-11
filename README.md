@@ -1,6 +1,8 @@
-![Bildschirmfoto 2021-08-11 um 18 41 08](https://user-images.githubusercontent.com/85449060/129069075-005e95e8-1c32-4f5e-8207-9a2e1b1228b7.png)
+
 # FE21-Portfolio-MarkusKamitz
 Prortfolio | 26.07.2021
+
+![Bildschirmfoto 2021-08-11 um 18 41 08](https://user-images.githubusercontent.com/85449060/129069075-005e95e8-1c32-4f5e-8207-9a2e1b1228b7.png)
 
 
 According to the idea: **"I love to create - and watch my creation unfold"** I created a little **"creators game"** on the homepage to 
